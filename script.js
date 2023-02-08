@@ -32,7 +32,7 @@ $('#next').click(function () {
       $('#prev').attr('disabled', false);
     }
 
-    if (curCount + noOfImagesToDisplay > photoCount) {
+    if (curCount + noOfImagesToDisplay >= photoCount) {
       $('#next').attr('disabled', true);
     }
   }
